@@ -31,7 +31,7 @@
             // {
             //     char character_name[] = "proku"; 
             //     int character_age = 69;
-            //     int garantisado = 32;
+            //     int garsantisado = 32;
             //     printf("There once was a man named %s.", character_name);
             //     printf("he was %i years old.", character_age);
             //     printf("He really liked the name %s ", character_name);
@@ -99,6 +99,13 @@
 
 // Comments
 
-#include 
+#include <stdio.h>
+#include <stdlib.h>
 
+int main()
+{
+    printf("Comments are fun");
+    return 0;
+    
+}
     

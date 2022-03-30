@@ -70,32 +70,35 @@
 
 // Printf 
 
-// #include <stdlib.h>
-// #include <stdio.h>
+            // #include <stdlib.h>
+            // #include <stdio.h>
 
-// int main()
-// {
-//     char student_name[] = "_____";
-//     int fave_num = 32;
-//     printf("%s's favorite number is %lld",student_name, fave_num);
-//     return 0;
-// }
+            // int main()
+            // {
+            //     char student_name[] = "_____";
+            //     int fave_num = 32;
+            //     printf("%s's favorite number is %lld",student_name, fave_num);
+            //     return 0;
+            // }
 
 // Working With Numbers
 
-#include<stdlib.h>
-#include<stdio.h>
+        // #include<stdlib.h>
+        // #include<stdio.h>
 
-int main()
-{
+        // int main()
+        // {
+        //     printf("pow() multiplies to the given exponent number %f\n", pow(4, 3));
+        //     printf("sqrt() finds the sqrt of the number given %f\n", sqrt(36));
+        //     printf("ceil() find the ceiling part of a number %f\n", ceil(1231.67));
+        //     printf("floor() just rounds the number down %f\n", floor(36.655));
 
-    printf("%f", 5 / 4.67);
-    printf("%d", 5 / 4.67);
-    printf("%i", 5 / 4.67);
 
+        //     return 0;
+        // }
 
-    return 0;
-}
+// Comments
 
+#include 
 
     

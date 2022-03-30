@@ -99,13 +99,26 @@
 
 // Comments
 
+        // #include <stdio.h>
+        // #include <stdlib.h>
+
+        // int main()
+        // {
+        //     printf("Comments are fun");
+        //     return 0;
+            
+        // }
+
+// Constants 
+    
 #include <stdio.h>
 #include <stdlib.h>
 
 int main()
 {
-    printf("Comments are fun");
+    char student_name[] = "angelo de tanga tanga";
+    const int student_age = 18;
+    printf("%s's age is %i", student_name, student_age);
+    
     return 0;
-    
 }
-    

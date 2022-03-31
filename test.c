@@ -154,25 +154,55 @@
 
 // Basic Calculator
 
-#include <stdio.h>
-#include <stdlib.h>
+// #include <stdio.h>
+// #include <stdlib.h>
 
-int main()
-{
-        double num1;
-        double num2;
-        printf ("Enter first number: ");
-        scanf("%lf", &num1);
-        printf ("Enter second number: ");
-        scanf("%lf", &num2);
+// int main()
+// {
+//         double num1;
+//         double num2;
+//         printf ("Enter first number: ");
+//         scanf("%lf", &num1);
+//         printf ("Enter second number: ");
+//         scanf("%lf", &num2);
         
-        float answer = num1 + num2;
-        char answer_in_string[20];
-        snprintf(answer_in_string, 20, "%f", answer);
-        printf("%s", answer_in_string);
-        printf("The answer is: %f", answer);
+//         float answer = num1 + num2;
+//         char answer_in_string[20];
+//         snprintf(answer_in_string, 20, "%f", answer);
+//         printf("%s", answer_in_string);
+//         printf("The answer is: %f", answer);
+
+//         return 0;
+// }
+
+// Mad Libs game
+
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// int main()
+// {
+
+//         char color[20];
+//         char plural_noun[20];
+//         char celebrity_first_name[20];
+//         char celebrity_second_name[20];
+
+//         printf("Enter a color: ");
+//         scanf("%s", color);
+
+//         printf("Enter a plural noun: ");
+//         scanf("%s", plural_noun);
+        
+//         printf("Enter a celebrity: ");
+//         scanf("%s%s", celebrity_first_name, celebrity_second_name);
+
+//         printf("Roses are %s\n", color);
+//         printf("%s are blue\n", plural_noun);
+//         printf("I love %s %s\n", celebrity_first_name, celebrity_second_name);
         
 
+//         return 0;
+// }
 
-        return 0;
-}
+// Arrays 

@@ -206,3 +206,23 @@
 // }
 
 // Arrays 
+
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// int main()
+// {
+//         int favorite_numbers[3];
+//         printf("Enter your first favorite number: ");
+//         scanf("%d", &favorite_numbers[0]);
+
+//         printf("Enter your second favorite number: ");
+//         scanf("%d", &favorite_numbers[1]);
+
+//         printf("%d", favorite_numbers[0]);
+//         printf("%d", favorite_numbers[1]);
+     
+
+
+//         return 0;
+// }

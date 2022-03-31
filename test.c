@@ -111,34 +111,68 @@
 
 // Constants 
     
+        // #include <stdio.h>
+        // #include <stdlib.h>
+
+        // int main()
+        // {
+        //     char student_name[] = "angelo de tanga tanga";
+        //     const int student_age = 18;
+        //     printf("%s's age is %i", student_name, student_age);
+        
+        //     return 0;
+        // }
+
+// Getting User Input
+
 // #include <stdio.h>
 // #include <stdlib.h>
 
 // int main()
 // {
-//     char student_name[] = "angelo de tanga tanga";
-//     const int student_age = 18;
-//     printf("%s's age is %i", student_name, student_age);
-    
-//     return 0;
+//         char name_of_user[20] = "";
+//         printf("Enter your name: ");
+//         fgets(name_of_user, 20, stdin);
+        
+
+//         int age_of_user;
+//         printf("Enter your age: ");
+//         scanf("%i", &age_of_user);
+       
+
+//         double grade_of_user;
+//         printf("Enter your grade for last year: ");
+//         scanf("%lf", &grade_of_user);
+
+
+//         printf("The user's name is: %s", name_of_user);
+//         printf("The user's age is: %i\n", age_of_user);
+//         printf("The user's grade is: %f", grade_of_user);
+        
+//         return 0;
 // }
 
-// Getting User Input
+// Basic Calculator
 
 #include <stdio.h>
 #include <stdlib.h>
 
 int main()
 {
-        char name_of_user[] = "";
-        printf("Enter your name: ");
-        scanf("%s", &name_of_user);
+        double num1;
+        double num2;
+        printf ("Enter first number: ");
+        scanf("%lf", &num1);
+        printf ("Enter second number: ");
+        scanf("%lf", &num2);
+        
+        float answer = num1 + num2;
+        char answer_in_string[20];
+        snprintf(answer_in_string, 20, "%f", answer);
+        printf("%s", answer_in_string);
+        printf("The answer is: %f", answer);
         
 
-        int age_of_user;
-        printf("Enter your age: ");
-        scanf("%i", &age_of_user);
-        printf("The user's name is: %s\n", name_of_user);
-        printf("The user's age is: %i\n", age_of_user);
+
         return 0;
 }

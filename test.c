@@ -111,14 +111,34 @@
 
 // Constants 
     
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// int main()
+// {
+//     char student_name[] = "angelo de tanga tanga";
+//     const int student_age = 18;
+//     printf("%s's age is %i", student_name, student_age);
+    
+//     return 0;
+// }
+
+// Getting User Input
+
 #include <stdio.h>
 #include <stdlib.h>
 
 int main()
 {
-    char student_name[] = "angelo de tanga tanga";
-    const int student_age = 18;
-    printf("%s's age is %i", student_name, student_age);
-    
-    return 0;
+        char name_of_user[] = "";
+        printf("Enter your name: ");
+        scanf("%s", &name_of_user);
+        
+
+        int age_of_user;
+        printf("Enter your age: ");
+        scanf("%i", &age_of_user);
+        printf("The user's name is: %s\n", name_of_user);
+        printf("The user's age is: %i\n", age_of_user);
+        return 0;
 }

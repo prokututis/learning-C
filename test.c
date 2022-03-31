@@ -269,33 +269,77 @@
 
 // Return Statement
 
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// double cube(double num)
+// {
+//         double answer = num * num * num;
+//         return answer;
+        
+// }
+
+// double square(double num)
+// {
+//         double answer = num*num;
+//         return answer;
+// }
+
+// double add(double num1, double num2)
+// {
+//         double answer = num1 + num2;
+
+// }
+
+// int main()
+// {
+//         return 0;
+// }
+
+
+// BMI Calculator
 #include <stdio.h>
 #include <stdlib.h>
 
-double cube(double num)
+float bmi(double weight, double height)
 {
-        double answer = num * num * num;
-        return answer;
+        float wt = weight;
+        float ht = height * height;
+        float bmi = wt/ht;
         
-}
 
-double square(double num)
-{
-        double answer = num*num;
-        return answer;
-}
+        printf("Your Weight is: %f\n", wt);
+        printf("Your Height is: %f\n", ht);
 
-double add(double num1, double num2)
-{
-        double answer = num1 + num2;
-        
+        if(bmi < 18.5)
+        {
+                printf("Your BMI is %f. You are Underweight.", bmi);
+        }
+        else if(bmi < 25)
+        {
+                printf("Your BMI is %f. You have a Normal weight.", bmi);
+        }
+        else if(bmi < 30)
+        {
+                printf("Your BMI is %f. You are Overweight.", bmi);
+        }
+        else if(bmi < 34)
+        {
+                printf("Your BMI is %f. You are Obese.", bmi);
+        }
+        else
+        {
+                printf("Your BMI is %f. You are clinically Obese", bmi);
+        }
+
+
+
 }
 
 int main()
 {
-        printf("The cube of 30 is %f\n", cube(30));
-        printf("The square of 20 is %f\n", square(20));
-        printf("The addition of the two is: %f\n", cube(30) + square(20));
+        
+        bmi(60.0, 1.72);
         return 0;
 }
 

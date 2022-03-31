@@ -226,3 +226,45 @@
 
 //         return 0;
 // }
+
+// Functions
+
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// int main()
+// {
+//         say_hi("Neo");
+//         greeting(2002, "Toni" );
+//         sqr(9000);
+//         swap(2, 4);
+        
+//         return 0;
+// }
+
+// void say_hi(char name[]) 
+// {
+//         printf("Wake Up, %s...\n", name);
+// }
+
+// void greeting(int year[], char name[])
+// {
+//         printf("Hello %s, You are in year %d\n", name, year);
+// }
+
+// void sqr(float number[])
+// {       
+//         int num = number;
+//         int answer = num*num;
+//         printf("The square of %d is %d\n", number, answer); 
+// }
+
+// void swap(int num1[], int num2[])
+// {
+//         int n1 = num1;
+//         int n2 = num2;
+//         printf("Before swapping: n1 = %d, n2 = %d\n", n1, n2);
+//         printf("After swapping: n1 = %d, n2 = %d", n2, n1);
+// }
+
+// Return Statement

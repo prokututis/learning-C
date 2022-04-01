@@ -413,77 +413,77 @@
 // & = ampersand use for numbers except characters or strings
 
 
-#include <stdio.h>
-#include <stdlib.h>
+        // #include <stdio.h>
+        // #include <stdlib.h>
 
 
 
-int main()
-{
+        // int main()
+        // {
 
-        double num1;
-        double num2;
-        char op;
+        //         double num1;
+        //         double num2;
+        //         char op;
 
-        printf("Enter a number: ");
-        scanf("%lf", &num1);
-        printf("Enter operator: ");
-        scanf(" %c", &op);
-        printf("Enter a number: ");
-        scanf("%lf", &num2);
+        //         printf("Enter a number: ");
+        //         scanf("%lf", &num1);
+        //         printf("Enter operator: ");
+        //         scanf(" %c", &op);
+        //         printf("Enter a number: ");
+        //         scanf("%lf", &num2);
 
-        if(op == '+')
-        {
-                printf("%f", num1 + num2);
-        }
-        else if(op == '-')
-        {
-                printf("%f", num1 - num2);
-        }
-        else if(op == '*')
-        {
-                printf("%f", num1 * num2);
-        }
-        else if(op == '/')
-        {
-                printf("%f", num1 / num2);
-        }
-        else if(op != '+' || op != '-' || op != '*' || op != '/')
-        {
-                printf("not available operator.");
-        }
+        //         if(op == '+')
+        //         {
+        //                 printf("%f", num1 + num2);
+        //         }
+        //         else if(op == '-')
+        //         {
+        //                 printf("%f", num1 - num2);
+        //         }
+        //         else if(op == '*')
+        //         {
+        //                 printf("%f", num1 * num2);
+        //         }
+        //         else if(op == '/')
+        //         {
+        //                 printf("%f", num1 / num2);
+        //         }
+        //         else if(op != '+' || op != '-' || op != '*' || op != '/')
+        //         {
+        //                 printf("not available operator.");
+        //         }
 
-        return 0;
-        
-}
+        //         return 0;
+                
+        // }
 
-void calculator()
-{
-        double num1; 
-        double num2;
-        char operator;
+        // void calculator()
+        // {
+        //         double num1; 
+        //         double num2;
+        //         char operator;
 
-        printf("Enter a number: ");
-        scanf("%lf", num1);
-        printf("Enter operator: ");
-        scanf(" %c", operator);
-        printf("Enter a number: ");
-        scanf("%lf", num2);
-        
-        if(operator == '+')
-        {
-                printf("%f", num1 + num2);
-        }
-        else if(operator == '-')
-        {
-                printf("%f", num1 - num2);
-        }
-        else if(operator == '*')
-        {
-                printf("%f", num1 * num2);
-        }
-        else if(operator == '/')
-        {
-                printf("%f", num1 / num2);
-        }
-}
+        //         printf("Enter a number: ");
+        //         scanf("%lf", num1);
+        //         printf("Enter operator: ");
+        //         scanf(" %c", operator);
+        //         printf("Enter a number: ");
+        //         scanf("%lf", num2);
+                
+        //         if(operator == '+')
+        //         {
+        //                 printf("%f", num1 + num2);
+        //         }
+        //         else if(operator == '-')
+        //         {
+        //                 printf("%f", num1 - num2);
+        //         }
+        //         else if(operator == '*')
+        //         {
+        //                 printf("%f", num1 * num2);
+        //         }
+        //         else if(operator == '/')
+        //         {
+        //                 printf("%f", num1 / num2);
+        //         }
+        // }

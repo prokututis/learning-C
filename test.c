@@ -125,221 +125,223 @@
 
 // Getting User Input
 
-// #include <stdio.h>
-// #include <stdlib.h>
+        // #include <stdio.h>
+        // #include <stdlib.h>
 
-// int main()
-// {
-//         char name_of_user[20] = "";
-//         printf("Enter your name: ");
-//         fgets(name_of_user, 20, stdin);
+        // int main()
+        // {
+        //         char name_of_user[20] = "";
+        //         printf("Enter your name: ");
+        //         fgets(name_of_user, 20, stdin);
+                
+
+        //         int age_of_user;
+        //         printf("Enter your age: ");
+        //         scanf("%i", &age_of_user);
         
 
-//         int age_of_user;
-//         printf("Enter your age: ");
-//         scanf("%i", &age_of_user);
-       
-
-//         double grade_of_user;
-//         printf("Enter your grade for last year: ");
-//         scanf("%lf", &grade_of_user);
+        //         double grade_of_user;
+        //         printf("Enter your grade for last year: ");
+        //         scanf("%lf", &grade_of_user);
 
 
-//         printf("The user's name is: %s", name_of_user);
-//         printf("The user's age is: %i\n", age_of_user);
-//         printf("The user's grade is: %f", grade_of_user);
-        
-//         return 0;
-// }
+        //         printf("The user's name is: %s", name_of_user);
+        //         printf("The user's age is: %i\n", age_of_user);
+        //         printf("The user's grade is: %f", grade_of_user);
+                
+        //         return 0;
+        // }
 
 // Basic Calculator
 
-// #include <stdio.h>
-// #include <stdlib.h>
+        // #include <stdio.h>
+        // #include <stdlib.h>
 
-// int main()
-// {
-//         double num1;
-//         double num2;
-//         printf ("Enter first number: ");
-//         scanf("%lf", &num1);
-//         printf ("Enter second number: ");
-//         scanf("%lf", &num2);
-        
-//         float answer = num1 + num2;
-//         char answer_in_string[20];
-//         snprintf(answer_in_string, 20, "%f", answer);
-//         printf("%s", answer_in_string);
-//         printf("The answer is: %f", answer);
+        // int main()
+        // {
+        //         double num1;
+        //         double num2;
+        //         printf ("Enter first number: ");
+        //         scanf("%lf", &num1);
+        //         printf ("Enter second number: ");
+        //         scanf("%lf", &num2);
+                
+        //         float answer = num1 + num2;
+        //         char answer_in_string[20];
+        //         snprintf(answer_in_string, 20, "%f", answer);
+        //         printf("%s", answer_in_string);
+        //         printf("The answer is: %f", answer);
 
-//         return 0;
-// }
+        //         return 0;
+        // }
 
 // Mad Libs game
 
-// #include <stdio.h>
-// #include <stdlib.h>
+        // #include <stdio.h>
+        // #include <stdlib.h>
 
-// int main()
-// {
+        // int main()
+        // {
 
-//         char color[20];
-//         char plural_noun[20];
-//         char celebrity_first_name[20];
-//         char celebrity_second_name[20];
+        //         char color[20];
+        //         char plural_noun[20];
+        //         char celebrity_first_name[20];
+        //         char celebrity_second_name[20];
 
-//         printf("Enter a color: ");
-//         scanf("%s", color);
+        //         printf("Enter a color: ");
+        //         scanf("%s", color);
 
-//         printf("Enter a plural noun: ");
-//         scanf("%s", plural_noun);
-        
-//         printf("Enter a celebrity: ");
-//         scanf("%s%s", celebrity_first_name, celebrity_second_name);
+        //         printf("Enter a plural noun: ");
+        //         scanf("%s", plural_noun);
+                
+        //         printf("Enter a celebrity: ");
+        //         scanf("%s%s", celebrity_first_name, celebrity_second_name);
 
-//         printf("Roses are %s\n", color);
-//         printf("%s are blue\n", plural_noun);
-//         printf("I love %s %s\n", celebrity_first_name, celebrity_second_name);
-        
+        //         printf("Roses are %s\n", color);
+        //         printf("%s are blue\n", plural_noun);
+        //         printf("I love %s %s\n", celebrity_first_name, celebrity_second_name);
+                
 
-//         return 0;
-// }
+        //         return 0;
+        // }
 
 // Arrays 
 
-// #include <stdio.h>
-// #include <stdlib.h>
+        // #include <stdio.h>
+        // #include <stdlib.h>
 
-// int main()
-// {
-//         int favorite_numbers[3];
-//         printf("Enter your first favorite number: ");
-//         scanf("%d", &favorite_numbers[0]);
+        // int main()
+        // {
+        //         int favorite_numbers[3];
+        //         printf("Enter your first favorite number: ");
+        //         scanf("%d", &favorite_numbers[0]);
 
-//         printf("Enter your second favorite number: ");
-//         scanf("%d", &favorite_numbers[1]);
+        //         printf("Enter your second favorite number: ");
+        //         scanf("%d", &favorite_numbers[1]);
 
-//         printf("%d", favorite_numbers[0]);
-//         printf("%d", favorite_numbers[1]);
-     
+        //         printf("%d", favorite_numbers[0]);
+        //         printf("%d", favorite_numbers[1]);
+        
 
 
-//         return 0;
-// }
+        //         return 0;
+        // }
 
 // Functions
 
-// #include <stdio.h>
-// #include <stdlib.h>
+        // #include <stdio.h>
+        // #include <stdlib.h>
 
-// int main()
-// {
-//         say_hi("Neo");
-//         greeting(2002, "Toni" );
-//         sqr(9000);
-//         swap(2, 4);
-        
-//         return 0;
-// }
+        // int main()
+        // {
+        //         say_hi("Neo");
+        //         greeting(2002, "Toni" );
+        //         sqr(9000);
+        //         swap(2, 4);
+                
+        //         return 0;
+        // }
 
-// void say_hi(char name[]) 
-// {
-//         printf("Wake Up, %s...\n", name);
-// }
+        // void say_hi(char name[]) 
+        // {
+        //         printf("Wake Up, %s...\n", name);
+        // }
 
-// void greeting(int year[], char name[])
-// {
-//         printf("Hello %s, You are in year %d\n", name, year);
-// }
+        // void greeting(int year[], char name[])
+        // {
+        //         printf("Hello %s, You are in year %d\n", name, year);
+        // }
 
-// void sqr(float number[])
-// {       
-//         int num = number;
-//         int answer = num*num;
-//         printf("The square of %d is %d\n", number, answer); 
-// }
+        // void sqr(float number[])
+        // {       
+        //         int num = number;
+        //         int answer = num*num;
+        //         printf("The square of %d is %d\n", number, answer); 
+        // }
 
-// void swap(int num1[], int num2[])
-// {
-//         int n1 = num1;
-//         int n2 = num2;
-//         printf("Before swapping: n1 = %d, n2 = %d\n", n1, n2);
-//         printf("After swapping: n1 = %d, n2 = %d", n2, n1);
-// }
+        // void swap(int num1[], int num2[])
+        // {
+        //         int n1 = num1;
+        //         int n2 = num2;
+        //         printf("Before swapping: n1 = %d, n2 = %d\n", n1, n2);
+        //         printf("After swapping: n1 = %d, n2 = %d", n2, n1);
+        // }
 
 // Return Statement
 
-// #include <stdio.h>
-// #include <stdlib.h>
+        // #include <stdio.h>
+        // #include <stdlib.h>
 
-// double cube(double num)
-// {
-//         double answer = num * num * num;
-//         return answer;
-        
-// }
+        // double cube(double num)
+        // {
+        //         double answer = num * num * num;
+        //         return answer;
+                
+        // }
 
-// double square(double num)
-// {
-//         double answer = num*num;
-//         return answer;
-// }
+        // double square(double num)
+        // {
+        //         double answer = num*num;
+        //         return answer;
+        // }
 
-// double add(double num1, double num2)
-// {
-//         double answer = num1 + num2;
+        // double add(double num1, double num2)
+        // {
+        //         double answer = num1 + num2;
 
-// }
+        // }
 
-// int main()
-// {
-//         return 0;
-// }
+        // int main()
+        // {
+        //         return 0;
+        // }
 
 
 // BMI Calculator
-#include <stdio.h>
-#include <stdlib.h>
-
-float bmi(double weight, double height)
-{
-        float wt = weight;
-        float ht = height * height;
-        float bmi = wt/ht;
-        
-
-        printf("Your Weight is: %f\n", wt);
-        printf("Your Height is: %f\n", ht);
-
-        if(bmi < 18.5)
-        {
-                printf("Your BMI is %f. You are Underweight.", bmi);
-        }
-        else if(bmi < 25)
-        {
-                printf("Your BMI is %f. You have a Normal weight.", bmi);
-        }
-        else if(bmi < 30)
-        {
-                printf("Your BMI is %f. You are Overweight.", bmi);
-        }
-        else if(bmi < 34)
-        {
-                printf("Your BMI is %f. You are Obese.", bmi);
-        }
-        else
-        {
-                printf("Your BMI is %f. You are clinically Obese", bmi);
-        }
 
 
+        // #include <stdio.h>
+        // #include <stdlib.h>
 
-}
+        // float bmi(double weight, double height)
+        // {
+        //         float wt = weight;
+        //         float ht = height * height;
+        //         float bmi = wt/ht;
+                
 
-int main()
-{
-        
-        bmi(60.0, 1.72);
-        return 0;
-}
+        //         printf("Your Weight is: %f\n", wt);
+        //         printf("Your Height is: %f\n", ht);
+
+        //         if(bmi < 18.5)
+        //         {
+        //                 printf("Your BMI is %f. You are Underweight.", bmi);
+        //         }
+        //         else if(bmi < 25)
+        //         {
+        //                 printf("Your BMI is %f. You have a Normal weight.", bmi);
+        //         }
+        //         else if(bmi < 30)
+        //         {
+        //                 printf("Your BMI is %f. You are Overweight.", bmi);
+        //         }
+        //         else if(bmi < 34)
+        //         {
+        //                 printf("Your BMI is %f. You are Obese.", bmi);
+        //         }
+        //         else
+        //         {
+        //                 printf("Your BMI is %f. You are clinically Obese", bmi);
+        //         }
+
+
+
+        // }
+
+        // int main()
+        // {
+                
+        //         bmi(60.0, 1.72);
+        //         return 0;
+        // }
 

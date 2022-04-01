@@ -348,64 +348,141 @@
 
 // If Statements
 
+
+        // #include <stdio.h>
+        // #include <stdlib.h>
+
+        // int max(int num1, int num2, int num3)
+        // {
+        //         int result;
+
+        //         if(num1 >= num2 && num1 >= num3)
+        //         {
+        //                 result = num1;
+        //         }
+        //         else if(num2 >= num1 && num2 >= num3)
+        //         {
+        //                 result = num2;
+        //         }
+        //         else if(num3 > num1 && num3 > num2)
+        //         {
+        //                 result = num3;
+        //         }
+        //         printf("%i", result);
+
+        // }
+
+
+        // int main()
+        // {       
+        //         int num1 = 31;
+        //         int num2 = 20; 
+        //         int num3 = 68;
+        //         if(num1 < 90 || num1 < 11)
+        //         {
+        //                 printf("nyeta");
+        //         }
+
+        //         if(3 >! 6)
+        //         {
+        //                 printf("True");
+        //         }
+
+        //         if(!(3 > 6))
+        //         {
+        //                 printf("True");
+        //         }
+
+        //         if(3 != 6)
+        //         {
+        //                 printf("True");
+        //         }
+
+        //         if(3 == 6)
+        //         {
+        //                 printf("True");        
+        //         }
+
+        //         return 0;
+        // }
+
+
+// Building a Better Calculator
+
+// %lf = scan for double
+// & = ampersand use for numbers except characters or strings
+
 #include <stdio.h>
 #include <stdlib.h>
 
-int max(int num1, int num2, int num3)
-{
-        int result;
-
-        if(num1 >= num2 && num1 >= num3)
-        {
-                result = num1;
-        }
-        else if(num2 >= num1 && num2 >= num3)
-        {
-                result = num2;
-        }
-        else if(num3 > num1 && num3 > num2)
-        {
-                result = num3;
-        }
-        printf("%i", result);
-     
-     
-
-
-}
 
 
 int main()
-{       
-        int num1 = 31;
-        int num2 = 20; 
-        int num3 = 68;
-        if(num1 < 90 || num1 < 11)
-        {
-                printf("nyeta");
-        }
+{
 
-        if(3 >! 6)
-        {
-                printf("True");
-        }
+        double num1;
+        double num2;
+        char op;
 
-        if(!(3 > 6))
-        {
-                printf("True");
-        }
+        printf("Enter a number: ");
+        scanf("%lf", &num1);
+        printf("Enter operator: ");
+        scanf(" %c", &op);
+        printf("Enter a number: ");
+        scanf("%lf", &num2);
 
-        if(3 != 6)
+        if(op == '+')
         {
-                printf("True");
+                printf("%f", num1 + num2);
         }
-
-        if(3 == 6)
+        else if(op == '-')
         {
-                printf("True");        
+                printf("%f", num1 - num2);
+        }
+        else if(op == '*')
+        {
+                printf("%f", num1 * num2);
+        }
+        else if(op == '/')
+        {
+                printf("%f", num1 / num2);
+        }
+        else if(op != '+' || op != '-' || op != '*' || op != '/')
+        {
+                printf("not available operator.");
         }
 
         return 0;
+        
 }
 
+void calculator()
+{
+        double num1; 
+        double num2;
+        char operator;
 
+        printf("Enter a number: ");
+        scanf("%lf", num1);
+        printf("Enter operator: ");
+        scanf(" %c", operator);
+        printf("Enter a number: ");
+        scanf("%lf", num2);
+        
+        if(operator == '+')
+        {
+                printf("%f", num1 + num2);
+        }
+        else if(operator == '-')
+        {
+                printf("%f", num1 - num2);
+        }
+        else if(operator == '*')
+        {
+                printf("%f", num1 * num2);
+        }
+        else if(operator == '/')
+        {
+                printf("%f", num1 / num2);
+        }
+}

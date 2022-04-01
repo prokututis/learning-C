@@ -345,3 +345,67 @@
         //         return 0;
         // }
 
+
+// If Statements
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int max(int num1, int num2, int num3)
+{
+        int result;
+
+        if(num1 >= num2 && num1 >= num3)
+        {
+                result = num1;
+        }
+        else if(num2 >= num1 && num2 >= num3)
+        {
+                result = num2;
+        }
+        else if(num3 > num1 && num3 > num2)
+        {
+                result = num3;
+        }
+        printf("%i", result);
+     
+     
+
+
+}
+
+
+int main()
+{       
+        int num1 = 31;
+        int num2 = 20; 
+        int num3 = 68;
+        if(num1 < 90 || num1 < 11)
+        {
+                printf("nyeta");
+        }
+
+        if(3 >! 6)
+        {
+                printf("True");
+        }
+
+        if(!(3 > 6))
+        {
+                printf("True");
+        }
+
+        if(3 != 6)
+        {
+                printf("True");
+        }
+
+        if(3 == 6)
+        {
+                printf("True");        
+        }
+
+        return 0;
+}
+
+

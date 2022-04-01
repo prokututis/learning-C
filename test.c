@@ -412,6 +412,7 @@
 // %lf = scan for double
 // & = ampersand use for numbers except characters or strings
 
+
 #include <stdio.h>
 #include <stdlib.h>
 

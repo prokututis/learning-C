@@ -24,6 +24,8 @@
 
 // Variables
 
+
+
             // #include <stdlib.h>
             // #include <stdio.h>
 
@@ -47,26 +49,96 @@
             //     return 1;
             // }
 
+        // #include <stdio.h>
+        // #include <stdlib.h>
+
+        // int main()
+        // {
+
+        //         int b;                                  // declaration                       
+        //         int x = 32;                             // declaration + initialization                         
+        //         x = 21;                                 // initialization
+                
+        //         int age = 19;                           // integer
+        //         float gpa = 2.05;                       // floating point number
+        //         char grade = 'C';                       // single character
+        //         char student_name[] = "prokututis";     // string(C is not OOP, strings are basically objects)
+
+        //         printf("Your grade is %c", grade);
+        //         return 0;
+        // }
+
 // Data Types 
 
-            // #include <stdlib.h>
-            // #include <stdio.h>
 
-            // int main()
-            // {
+        //     #include <stdio.h>
+        //     #include <stdlib.h>
+        //     #include <stdbool.h>
+
+        //     int main()
+        //     {
+        //         // chars 
+        //         char a = 'C';                           // single character     %c
+        //         char b[] = "bobo";                      // array of characters  %s     
+
+
+        //         // float
+        //         float fl = 3.141592;                    // 4 bytes (32 bits of precision) 6 - 7 digits %f
+        //         double db = 3311.141592653589793;       // 8 bytes (64 bits of precision) 15 - 16 digits %lf
+        //         printf("%0.15lf, %0.5f\n", db, fl);
+
+
+        //         // bool
+        //         bool t = true;                          // 1 byte (true or false) %d 
+        //         printf("%d\n", t);
+
+
+        //         // signed & unsigned
+        //         char f = 100;                           // 1 byte (-128 to +127) %d or %c
+        //         unsigned char g = 255;                  // 1 byte (0 to +255) %d or %c
+        //         printf("%d\n", g);                    
+
+
+        //         // short ints 
+        //         short int h =  32767;                   // 2 bytes (-32,768 to +32,767) %d
+        //         unsigned short int i = 65535;           // 2 bytes (0 to +65,535) %d
+        //         printf("%d\n", h);
+
+
+        //         // int
+        //         int j = 2193621983;                     // 4 bytes (-2,147,483,648 to +2,147,483,647) %d
+        //         unsigned int k = 43924890;              // 4 bytes (0 to +4,294,967,295) %u
+
+
+        //         // long int
+        //         long long int l = 92313435254554;        // 8 bytes (-9 quintillion to +9 quintillion) %lld
+        //         unsigned long long int m = 10398120938120912321312;     // 8 bytes (0 to +18 quintillion) %llu
+        //         printf("%lld", m);
+        //         return 0;
+        
+
+
+// Format Specifiers
+
+        // #include <stdio.h>
+        // #include <stdlib.h>
+
+        // int main()
+        // {
+                // format specifier % = defines and formats a type of data to be displayed
+
+                // %c = character
+                // %s = string (array of characters)
+                // %f = float
+                // %lf = double 
+                // %d = integer
                 
-            //     int age = 40;
-            //     float grade_of_student = 40.33131312313213081730217308173981273981237918;
-            //     char name_of_student = 'a';
-            //     char description[] = "pinaka-bobong student sa isang eskwelahan, tanginang yan.";
+                // %.1 = decimal presision
+                // %1 = minimum field width
+                // %- = left align
+                
 
 
-            //     printf("angelo's grade is: %d", age);
-            //     return 0;
-            // }
-
-            // #include <stdio.h>
-            // #include <stdlib.h>
 
 // Printf 
 
@@ -413,77 +485,78 @@
 // & = ampersand use for numbers except characters or strings
 
 
-        // #include <stdio.h>
-        // #include <stdlib.h>
+        #include <stdio.h>
+        #include <stdlib.h>
 
 
 
-        // int main()
-        // {
+        int main()
+        {
 
-        //         double num1;
-        //         double num2;
-        //         char op;
+                double num1;
+                double num2;
+                char op;
 
-        //         printf("Enter a number: ");
-        //         scanf("%lf", &num1);
-        //         printf("Enter operator: ");
-        //         scanf(" %c", &op);
-        //         printf("Enter a number: ");
-        //         scanf("%lf", &num2);
+                printf("Enter a number: ");
+                scanf("%lf", &num1);
+                printf("Enter operator: ");
+                scanf(" %c", &op);
+                printf("Enter a number: ");
+                scanf("%lf", &num2);
 
-        //         if(op == '+')
-        //         {
-        //                 printf("%f", num1 + num2);
-        //         }
-        //         else if(op == '-')
-        //         {
-        //                 printf("%f", num1 - num2);
-        //         }
-        //         else if(op == '*')
-        //         {
-        //                 printf("%f", num1 * num2);
-        //         }
-        //         else if(op == '/')
-        //         {
-        //                 printf("%f", num1 / num2);
-        //         }
-        //         else if(op != '+' || op != '-' || op != '*' || op != '/')
-        //         {
-        //                 printf("not available operator.");
-        //         }
+                if(op == '+')
+                {
+                        printf("%f", num1 + num2);
+                }
+                else if(op == '-')
+                {
+                        printf("%f", num1 - num2);
+                }
+                else if(op == '*')
+                {
+                        printf("%f", num1 * num2);
+                }
+                else if(op == '/')
+                {
+                        printf("%f", num1 / num2);
+                }
+                else if(op != '+' || op != '-' || op != '*' || op != '/')
+                {
+                        printf("not available operator.");
+                }
 
-        //         return 0;
+                return 0;
                 
-        // }
+        }
 
-        // void calculator()
-        // {
-        //         double num1; 
-        //         double num2;
-        //         char operator;
+        void calculator()
+        {
+                double num1; 
+                double num2;
+                char operator;
 
-        //         printf("Enter a number: ");
-        //         scanf("%lf", num1);
-        //         printf("Enter operator: ");
-        //         scanf(" %c", operator);
-        //         printf("Enter a number: ");
-        //         scanf("%lf", num2);
+                printf("Enter a number: ");
+                scanf("%lf", num1);
+                printf("Enter operator: ");
+                scanf(" %c", operator);
+                printf("Enter a number: ");
+                scanf("%lf", num2);
                 
-        //         if(operator == '+')
-        //         {
-        //                 printf("%f", num1 + num2);
-        //         }
-        //         else if(operator == '-')
-        //         {
-        //                 printf("%f", num1 - num2);
-        //         }
-        //         else if(operator == '*')
-        //         {
-        //                 printf("%f", num1 * num2);
-        //         }
-        //         else if(operator == '/')
-        //         {
-        //                 printf("%f", num1 / num2);
-        //         }
-        // }
+                if(operator == '+')
+                {
+                        printf("%f", num1 + num2);
+                }
+                else if(operator == '-')
+                {
+                        printf("%f", num1 - num2);
+                }
+                else if(operator == '*')
+                {
+                        printf("%f", num1 * num2);
+                }
+                else if(operator == '/')
+                {
+                        printf("%f", num1 / num2);
+                }
+        }
+
